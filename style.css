@@ -1,0 +1,26 @@
+header{
+    background-color: rgb(236, 236, 236);
+    padding: 25px;
+}
+h1,h2{
+    display:inline;
+    margin: 0 0 0 20px;
+    vertical-align: middle;
+    padding: 15px 25px;
+}
+h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: darkblue;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+main div{
+    display: inline-block;
+    padding: 25px;
+}
+.principal{
+
+}
