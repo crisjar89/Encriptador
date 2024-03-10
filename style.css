@@ -14,13 +14,29 @@ h2{
     color: darkblue;
 }
 main{
-    width: 940px;
     margin: 0 auto;
+    background: black;
 }
-main div{
+main section{
     display: inline-block;
     padding: 25px;
+    
 }
 .principal{
-
+    margin: top;
+}
+.texto-nuevo{
+    background:url(img/gb.jpg);
+    opacity: 0.75;
+    border-radius: 10px;
+    border: none;
+}
+.secundario{
+    margin: top;
+    display: inline-block;
+}
+.texto-procesado{
+    text: white;
+    border-radius: 10px;
+    opacity: 0.25;
 }

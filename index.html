@@ -13,16 +13,23 @@
         <h2>Encriptador de texto</h2>
     </header>
     <main>
-        <div class="principal">
-            <textarea id="texto-nuevo" rows="20" cols="45" placeholder="Escribe el texto aquí!"></textarea>
-            <p>Solo letras minúsculas y sin acentos</p>
-            <button>Encriptar</button>
-            <button>Desencriptar</button>
-        </div>
-
-        <div class="secundario">
-            <textarea id="texto-procesado" rows="20" cols="20"></textarea>
-            <button>Copiar</button>
-        </div>
+        <section class="principal">
+            <div class="texto-uno">
+                <textarea class="texto-nuevo" rows="20" cols="45" placeholder="Escribe el texto aquí!"></textarea>
+                <p>Escribe solo letras minúsculas, sin acentos ni caractéres especiales</p>
+            </div>
+            <div>
+                <button>Encriptar</button>
+                <button>Desencriptar</button>
+            </div>
+        </section>
+        <section class="secundario">
+            <div class="texto-dos">
+                <textarea class="texto-procesado" rows="20" cols="25"></textarea>
+            </div>
+            <div>
+                <button>Copiar</button>
+            </div> 
+        </section>
     </main>
 </body>
