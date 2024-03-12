@@ -11,11 +11,9 @@ main{
     top: 40px;
 }
 main textarea{
-    resize: none;
     border: none;
-    background: none;
-    
-1}
+    background: none;  
+}
 .texto-nuevo{
    position: absolute;
     width: 450px;
@@ -29,13 +27,30 @@ main textarea{
     line-height: 100%;
     color: #0A3871;
 }
+.botones{
+    /* Frame 3 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+
+position: absolute;
+width: 80px;
+height: 67px;
+left: 240px;
+top: 460px;
+
+
+}
 .principal-dos{
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 0px;
     gap: 8px;
-
     position: absolute;
     width: 450px;
     height: 18px;
