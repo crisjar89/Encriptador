@@ -27,6 +27,25 @@ main textarea{
     line-height: 100%;
     color: #0A3871;
 }
+.principal-dos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    width: 450px;
+    height: 18px;
+    top: 450px;
+    left: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 100%;
+    color: gray;
+}
+
 .botones{
     /* Frame 3 */
 
@@ -40,20 +59,8 @@ gap: 24px;
 position: absolute;
 width: 80px;
 height: 67px;
-left: 240px;
-top: 460px;
+left: 140px;
+top: 470px;
 
 
-}
-.principal-dos{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 8px;
-    position: absolute;
-    width: 450px;
-    height: 18px;
-    top: 450px;
-    left: 140px;
 }
