@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(236, 236, 236);
+    background-color: #0A3871;
     padding: 25px;
 }
 h1,h2{
@@ -8,13 +8,23 @@ h1,h2{
     vertical-align: middle;
     padding: 15px 25px;
 }
+h1{
+    width: 100px;
+    height: 2000px;
+    background-color: white;
+    opacity: 0.25;
+}
 h2{
     font-size: 22px;
     font-weight: bold;
-    color: darkblue;
+    color: white;
 }
 main{
-    
+    margin: 0 auto; 
+    background:url(img/gb.jpg);
+    background-repeat: ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 main section{
     display: inline-block;
@@ -25,10 +35,19 @@ main section{
     margin: top;
 }
 .texto-nuevo{
-    background:url(img/gb.jpg);
+    background:black;
     opacity: 0.75;
     border-radius: 10px;
     border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+    /* Dark blue/dark-blue-300 */
+    color: white;
 }
 .secundario{
     margin: top;
@@ -38,4 +57,23 @@ main section{
     text: white;
     border-radius: 10px;
     opacity: 0.25;
+}
+{
+/* Ingrese el texto aqui */
+
+position: absolute;
+width: 577px;
+height: 48px;
+left: 240px;
+top: 168px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 150%;
+/* identical to box height, or 48px */
+
+/* Dark blue/dark-blue-300 */
+color: #0A3871;
 }

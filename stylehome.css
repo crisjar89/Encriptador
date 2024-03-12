@@ -1,0 +1,44 @@
+main{
+    width: 100%;
+    height: 100%;
+    background: #F3F5FC;
+}
+.logo{
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+main textarea{
+    resize: none;
+    border: none;
+    background: none;
+    
+1}
+.texto-nuevo{
+   position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 140px;
+    top: 128px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 100%;
+    color: #0A3871;
+}
+.principal-dos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 450px;
+    height: 18px;
+    top: 450px;
+    left: 140px;
+}
