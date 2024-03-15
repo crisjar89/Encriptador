@@ -58,4 +58,10 @@ function botonCopiar() {
      // Copy the text inside the text field
     navigator.clipboard.writeText(copyText.value);
     texto_encriptado.value = "";
-  }
+}
+function mostrarcopiar() {
+    document.getElementById("copiar").style.display = "inline-block";
+}
+function ocultarboton() {
+    document.getElementById("copiar").style.display = "none";
+}
