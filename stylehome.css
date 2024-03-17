@@ -274,13 +274,7 @@ nav a:hover {
 /*ajustes multiplataforma*/
 
 @media screen and (max-width:1024px){
-    .texto-nuevo{
-        left: 150px;
-    }
-    .principal-dos{
-        left: 150px;
-    }
-    .botones{
+    .texto-nuevo, .principal-dos, .botones{
         left: 150px;
     }
     .texto-encriptado{
@@ -291,5 +285,23 @@ nav a:hover {
     }
     .copiar{
         left: 725px;
+    }
+}
+@media screen and (max-width:920px){
+    .titulo, .subtitulo{
+        left: 250px;
+    }
+    .texto-nuevo, .principal-dos, .botones{
+        width: 400px;
+        left: 100px;
+    }
+    .texto-encriptado{
+        left: 600px;
+    }
+    .muneco, .secundario-dos, .exito-encriptar, .exito-desencriptar {
+        left: 650px;
+    }
+    .copiar{
+        left: 675px;
     }
 }
