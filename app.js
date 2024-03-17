@@ -65,3 +65,13 @@ function mostrarcopiar() {
 function ocultarboton() {
     document.getElementById("copiar").style.display = "none";
 }
+function ocultar() {
+    document.getElementById("muñeco").style.display = "none";
+    document.getElementById("frase").style.display = "none";
+    document.getElementById("mensaje").style.display = "none";
+}
+function mostrar() {
+    document.getElementById("muñeco").style.display = "inline-block";
+    document.getElementById("frase").style.display = "inline-block";
+    document.getElementById("mensaje").style.display = "inline-block";
+}

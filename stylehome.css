@@ -28,9 +28,14 @@ main section{
     left: 425px;
     top: 60px;
     font-weight: bold;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 100%;
     color: #0A3871;
+}
+p a{
+    font-size: 15px;
+    color: #0A3871;
+    text-decoration: none;
 }
 main textarea{
     border: none;
@@ -64,7 +69,7 @@ main textarea{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 300;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 100%;
     color: gray;
 }
@@ -178,7 +183,65 @@ main textarea{
     box-shadow: 1px 1px 1px 1px #6e6e6e;
 }
 footer{
-    background-color: gray;
-    height: 65px;
-
+    background-color: #082549;
+    background-size: 100px auto;
+    height: 120px;
 }
+nav{
+    width: 500px;
+    height: 60px;
+    margin: auto;
+    
+}
+nav li{
+    display: inline-block;
+    padding: 20px 90px;
+}
+nav a {
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: white;
+}
+
+/* funciones hover*/
+
+p a:hover{
+    transition: 500ms;
+    font-size: 16px;
+    color: #040025;
+    text-decoration: underline;
+}
+.encriptar:hover{
+    transition: 300ms;
+    font-size: 15px;
+    color: #ffffff;
+    text-decoration: underline;
+    transform: scale(1.1, 1.1);
+}
+.desencriptar:hover{
+    transition: 300ms;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: underline;
+    transform: scale(1.1, 1.1);
+}
+.copiar:hover{
+    transition: 500ms;
+    font-size: 15px;
+    color: #1f008f;
+    text-decoration: underline;
+    transform: scale(1.1, 1.1);
+}
+nav a:hover {
+    color: #fffb00;
+    text-decoration: underline;
+    transform: scale(1.2, 1.2);
+}
+/*ajustes multiplataforma*/
+
