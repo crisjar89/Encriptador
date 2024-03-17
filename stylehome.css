@@ -286,10 +286,7 @@ nav a:hover {
     .texto-encriptado{
         left: 700px;
     }
-    .muneco{
-        left: 755px;
-    }
-    .secundario-dos{
+    .muneco, .secundario-dos, .exito-encriptar, .exito-desencriptar {
         left: 755px;
     }
     .copiar{
