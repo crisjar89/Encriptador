@@ -140,12 +140,15 @@ main textarea{
     left: 855px;
     top: 200px;
 }
-.frase{
+.secundario-dos{
     position: absolute;
     width: 160px;
     height: auto;
     left: 855px;
     top: 365px;
+}
+.frase{
+    padding: 10px;
     font-weight: bold;
     font-size: 16px;
     line-height: 100%;
@@ -153,14 +156,38 @@ main textarea{
     color: black;
 }
 .mensaje{
+    padding: 10px;
+    font-family: 'Inter';
+    font-weight: 550;
+    font-size: 10px;
+    line-height: 100%;
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+.exito-encriptar{
+    display: none;
     position: absolute;
     width: 160px;
     height: auto;
     left: 855px;
-    top: 410px;
+    top: 425px;
     font-family: 'Inter';
     font-weight: 550;
-    font-size: 10px;
+    font-size: 12px;
+    line-height: 100%;
+    text-align: center;
+    color: rgb(87, 87, 87);
+}
+.exito-desencriptar{
+    display: none;
+    position: absolute;
+    width: 160px;
+    height: auto;
+    left: 855px;
+    top: 425px;
+    font-family: 'Inter';
+    font-weight: 550;
+    font-size: 12px;
     line-height: 100%;
     text-align: center;
     color: rgb(87, 87, 87);
@@ -243,5 +270,29 @@ nav a:hover {
     text-decoration: underline;
     transform: scale(1.2, 1.2);
 }
+
 /*ajustes multiplataforma*/
 
+@media screen and (max-width:1024px){
+    .texto-nuevo{
+        left: 150px;
+    }
+    .principal-dos{
+        left: 150px;
+    }
+    .botones{
+        left: 150px;
+    }
+    .texto-encriptado{
+        left: 700px;
+    }
+    .muneco{
+        left: 755px;
+    }
+    .secundario-dos{
+        left: 755px;
+    }
+    .copiar{
+        left: 725px;
+    }
+}

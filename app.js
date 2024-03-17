@@ -75,3 +75,13 @@ function mostrar() {
     document.getElementById("frase").style.display = "inline-block";
     document.getElementById("mensaje").style.display = "inline-block";
 }
+function mostrarExitoEncriptar() {
+    document.getElementById("exito-enc").style.display = "inline";
+}
+function mostrarExitoDesencriptar() {
+    document.getElementById("exito-des").style.display = "inline-block";
+}
+function ocultarTexto() {
+    document.getElementById("exito-enc").style.display = "none";
+    document.getElementById("exito-des").style.display = "none";
+}
