@@ -21,15 +21,15 @@ function encriptar(textoEncriptado){
             textoEncriptado = textoEncriptado.replaceAll(
                 matriz_code[i][0],
                 matriz_code[i][1]
-            )
+            );
         }
     }
     return textoEncriptado
 }
 const matriz_dos =[
-    ["enter", "e"], // indice 0
-    ["imes", "i"],  // indice 1
-    ["ai", "a"],  // indice 2
+    ["ai", "a"], // indice 0
+    ["enter", "e"],  // indice 1
+    ["imes", "i"],  // indice 2
     ["ober", "o"],  // indice 3
     ["ufat", "u"],  // indice 4
 ];
@@ -44,7 +44,7 @@ function desencriptar(textoDesencriptado){
             textoDesencriptado = textoDesencriptado.replaceAll(
                 matriz_dos[i][0],
                 matriz_dos[i][1]
-            )
+            );
         }
     }
     return textoDesencriptado
