@@ -17,8 +17,8 @@
             <textarea id="texto-nuevo" class="texto-nuevo" placeholder="¡Escribe el texto aquí!"></textarea>
             <p class="principal-dos"><img src="img/sig.png" class="signo">Escribe solamente minúsculas y sin acentos.</p>
             <div class="botones">
-                <button id="encripta" class="encriptar" onclick="botonEncriptar(), mostrarcopiar(), mostrarExitoEncriptar(), ocultar()">Encriptar</button>
-                <button class="desencriptar" onclick="botonDesncriptar(), mostrarcopiar(), mostrarExitoDesencriptar(), ocultar()">Desencriptar</button>
+                <button id="encripta" class="encriptar" onclick="botonEncriptar(), mostrarcopiar(), mostrarExitoEncriptar(), ocultar()" disabled>Encriptar</button>
+                <button id="desencriptar" class="desencriptar" onclick="botonDesncriptar(), mostrarcopiar(), mostrarExitoDesencriptar(), ocultar()" disabled>Desencriptar</button>
             </div>
         </section>
         <section class="secundario">
@@ -30,7 +30,7 @@
             </div>
             <p id="exito-enc" class="exito-encriptar">¡Tu mensaje fue encriptado con éxito!</p>
             <p id="exito-des" class="exito-desencriptar">¡Tu mensaje a sido desencriptado!</p>
-            <button id="copiar" class="copiar" onclick="botonCopiar(), ocultarboton(), mostrar(), ocultarTexto()">Copiar</button>
+            <button id="copiar" class="copiar" onclick="botonCopiar(), ocultarboton(), mostrar(), ocultarTexto(), desabilitarBotones()">Copiar</button>
         </section>
     </main>
     <footer id="pie">

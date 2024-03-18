@@ -1,5 +1,7 @@
 const texto_nuevo = document.querySelector ("#texto-nuevo");
 const texto_encriptado = document.querySelector ("#texto-encriptado");
+const botonEncripta = document.getElementById("encripta");
+const botonDesencripta = document.getElementById("desencriptar");
 
 const matriz_code =[
     ["e", "enter"], // indice 0
@@ -84,4 +86,14 @@ function mostrarExitoDesencriptar() {
 function ocultarTexto() {
     document.getElementById("exito-enc").style.display = "none";
     document.getElementById("exito-des").style.display = "none";
+}
+texto_nuevo.addEventListener("input", function(event) {
+    if (texto_nuevo.value.trim() !== "") {
+        botonEncripta.removeAttribute("disabled");
+        botonDesencripta.removeAttribute("disabled");
+    }
+});
+function desabilitarBotones() {
+    document.getElementById("encripta").setAttribute("disabled", true);
+    document.getElementById("desencriptar").setAttribute("disabled", true);
 }
